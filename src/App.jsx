@@ -26,7 +26,7 @@ function App() {
   return (
     <>
      <div className="min-h-screen flex flex-col items-center p-5 bg-gray-100">
-      <h1 className="text-3xl font-bold mb-5">📝 To-Do List</h1>
+      <h1 className="text-3xl font-bold mb-5  mt-10">To-Do List</h1>
       <TaskInput setTasks={setTasks}  />
       <TaskList tasks={tasks} setTasks={setTasks} />
     </div>
